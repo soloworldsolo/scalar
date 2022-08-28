@@ -14,7 +14,4 @@ public class ReverseArray {
         return newArary;
     }
 
-
-
-
 }
