@@ -37,3 +37,17 @@ l
 <src/test/java/soloworld/scalar/arrays/ArrayRotationTest.java,d/4/d4aaab39d00f28f0f1f21a2aa8ad3a7c6542f0da
 v
 Fsrc/test/java/soloworld/scalar/intermediate/hashing/DistancesTest.java,1/b/1b861ea7935b4e1de339db01e90e9aefd3ea5057
+€
+Psrc/test/java/soloworld/scalar/intermediate/prefixsum/PickFronBOthSidesTest.java,a/f/af25b2b56d91c49e6e05b1e94dcc8d84c3f55eb4
+w
+Gsrc/test/java/soloworld/scalar/intermediate/prefixsum/RangeSumTest.java,a/5/a5a26824fa264bc3d9c2a02b1ca139532ad4eb1e
+s
+Csrc/main/java/soloworld/scalar/intermediate/prefixsum/RangeSum.java,7/3/739a83319a250fb663581af00c9a339d0881c1cd
+~
+Nsrc/main/java/soloworld/scalar/intermediate/hashing/FirstRepeatingElement.java,4/a/4ac4fa7a48a2015baaa6081eaef018dcef7f5265
+r
+Bsrc/main/java/soloworld/scalar/intermediate/hashing/Distances.java,7/2/72f6ef51a14e39ba05b45f7b6eeb7a2f499135af
+w
+Gsrc/main/java/soloworld/scalar/intermediate/prefixsum/SpecialIndex.java,a/5/a5bf957fec17a2ef74a4b1f814fa1c0a8511ecfb
+|
+Lsrc/main/java/soloworld/scalar/intermediate/prefixsum/PickFronBOthSides.java,2/1/21beeffa78673d0c99515098a86c910eb137a2f3
