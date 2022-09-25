@@ -6,12 +6,12 @@ public class ReverseArray {
 
     public int[] solve(final int[] A) {
         int noOfRotation = A.length-1 ;
-        int[] newArary = new int[A.length];
+        int[] newArray = new int[A.length];
         int index =0;
         while (index <A.length) {
-            newArary[noOfRotation--] = A[index++];
+            newArray[noOfRotation--] = A[index++];
         }
-        return newArary;
+        return newArray;
     }
 
 }
