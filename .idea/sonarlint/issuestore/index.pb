@@ -49,3 +49,11 @@ w
 Gsrc/main/java/soloworld/scalar/intermediate/prefixsum/SpecialIndex.java,a/5/a5bf957fec17a2ef74a4b1f814fa1c0a8511ecfb
 |
 Lsrc/main/java/soloworld/scalar/intermediate/prefixsum/PickFronBOthSides.java,2/1/21beeffa78673d0c99515098a86c910eb137a2f3
+g
+7src/main/java/soloworld/scalar/arrays/ReverseArray.java,7/f/7f90909f899a535bba77b06e58680e28c113f879
+p
+@src/test/java/soloworld/scalar/bitwise/AddingTwoStringsTest.java,6/c/6c48c4267107096c8e051678ec8772e50c3f1f3a
+h
+8src/main/java/soloworld/scalar/bitwise/NumOfSetBits.java,f/f/ffab0fd0b768f1666b6180bfe5df5676eadb06d9
+l
+<src/test/java/soloworld/scalar/bitwise/NumOfSetBitsTest.java,8/c/8c97c8e964dc063f6701c7ff3a51ea301a78ff6c
