@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MaximumConsequitiveOneTest {
+public class MaximumConsequitiveOneTest {
     @Test
     public void test() {
         int[] inputArr = {10023,1589};
@@ -179,7 +179,7 @@ class MaximumConsequitiveOneTest {
     }
 
     @Test
-    void rfrfrf() throws JsonProcessingException {
+    public void rfrfrf() throws JsonProcessingException {
         double val =53953/200.0;
         double val2 = 2113%200;
         System.out.println(val);

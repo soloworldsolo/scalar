@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AddingTwoStringsTest {
+public class AddingTwoStringsTest {
 
     AddingTwoStrings addingTwoStrings;
 
@@ -16,13 +16,13 @@ class AddingTwoStringsTest {
     }
 
     @Test
-    void test1() {
+   public void test1() {
         String s = addingTwoStrings.addBinary("100", "11");
         assertEquals("111",s);
 
     }
     @Test
-    void test2() {
+    public void test2() {
         String s = addingTwoStrings.addBinary("1", "1");
         assertEquals("10",s);
 

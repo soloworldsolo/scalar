@@ -9,24 +9,24 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ContigiousSubsetTest {
+public class ContigiousSubsetTest {
 
     ContigiousSubset contigiousSubset;
 
     @BeforeEach
-    void setUp() {
+   public void setUp() {
         contigiousSubset = new ContigiousSubset();
     }
 
     @Test
-    void test1() {
+    public void test1() {
         int[] input = {1,2,3,10,8,6};
         List<List<Integer>> res = this.contigiousSubset.getContigiousSubset(input);
         List<List<Integer>> result = List.of(List.of(1),List.of(2),List.of(3),List.of(6,8,10));
         Assertions.assertEquals(result ,res);
     }
     @Test
-    void test2() {
+    public void test2() {
         int[] input = {4,1,2,3,10,8,6};
         List<List<Integer>> res = this.contigiousSubset.getContigiousSubset(input);
         List<List<Integer>> result = List.of(List.of(1,2,3,4),List.of(6,8,10));
@@ -34,17 +34,14 @@ class ContigiousSubsetTest {
     }
 
     @Test
-    void test3() {
+    public void test3() {
         int[] input = {4,1,2,3,10,8,6,11,7};
         List<List<Integer>> res = this.contigiousSubset.getContigiousSubset(input);
         List<List<Integer>> result = List.of(List.of(1,2,3,4),List.of(6,7,8,10,11));
         Assertions.assertEquals(result ,res);
     }
 
-    @Test
-    void test4() {
 
-    }
 
   /*  public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

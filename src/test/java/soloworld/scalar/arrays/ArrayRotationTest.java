@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArrayRotationTest {
+public class ArrayRotationTest {
 
-    ArrayRotation arrayRotation;
+    public ArrayRotation arrayRotation;
 
 
     @BeforeEach
@@ -18,14 +18,14 @@ class ArrayRotationTest {
     }
 
     @Test
-    void test() {
+    public void test() {
         int[] input = {1,2,3,4};
         int[] res = arrayRotation.rotate(input, 2);
         assertArrayEquals(res,new int[]{3,4,1,2});
 
     }
     @Test
-    void test1() {
+   public void test1() {
         int[] input = {1,1,1,1,1};
         int[] res = arrayRotation.rotate(input, 6);
         assertArrayEquals(res,new int[]{1,1,1,1,1});

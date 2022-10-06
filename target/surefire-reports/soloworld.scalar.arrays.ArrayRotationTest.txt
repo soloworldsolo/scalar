@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: soloworld.scalar.arrays.ArrayRotationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+soloworld.scalar.arrays.ArrayRotationTest.test1()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "soloworld.scalar.arrays.ArrayRotation.rotate(int[], int)" because "this.arrayRotation" is null
+	at soloworld.scalar.arrays.ArrayRotationTest.test1(ArrayRotationTest.java:30)
+

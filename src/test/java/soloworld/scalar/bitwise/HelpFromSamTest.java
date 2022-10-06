@@ -5,17 +5,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HelpFromSamTest {
+public class HelpFromSamTest {
 
     private HelpFromSam helpFromSam;
 
     @BeforeEach
-    void setUp() {
+   public void setUp() {
         helpFromSam = new HelpFromSam();
     }
 
     @Test
-    void test1() {
+    public void test1() {
         int solve = helpFromSam.solve(8549);
 
         assertEquals(6,solve);

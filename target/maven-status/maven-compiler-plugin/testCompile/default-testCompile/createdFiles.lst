@@ -1,10 +1,14 @@
 soloworld/scalar/arrays/ContigiousSubsetTest.class
 soloworld/scalar/intermediate/prefixsum/PickFronBOthSidesTest.class
 soloworld/scalar/arrays/ArrayRotationTest.class
+soloworld/scalar/intermediate/modular/GreatestAmongTwoTest.class
 soloworld/scalar/bitwise/AddingTwoStringsTest.class
+soloworld/scalar/bitwise/NumOfSetBitsTest.class
 soloworld/scalar/intermediate/carryForward/TurningBulbsOnTest.class
 soloworld/scalar/intermediate/hashing/FirstRepeatingElementTest.class
+soloworld/scalar/bitwise/HelpFromSamTest.class
 soloworld/scalar/arrays/MaximumConsequitiveOneTest.class
+soloworld/scalar/intermediate/modular/ExcelTitleNumberTest.class
 soloworld/scalar/recursion/RecursionTest.class
 soloworld/scalar/intermediate/prefixsum/RangeSumTest.class
 soloworld/scalar/intermediate/prefixsum/SpecialIndexTest.class

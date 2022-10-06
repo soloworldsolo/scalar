@@ -1,6 +1,9 @@
 soloworld/scalar/intermediate/prefixsum/SpecialIndex.class
+soloworld/scalar/intermediate/modular/ExcelTitleNumber.class
 soloworld/scalar/intermediate/hashing/SubArrayWithSumZero.class
+soloworld/scalar/intermediate/modular/GreatestAmongTwo.class
 soloworld/scalar/arrays/ContigiousSubset.class
+soloworld/scalar/bitwise/HelpFromSam.class
 soloworld/scalar/intermediate/carryForward/SubArrayMaxValue.class
 soloworld/scalar/intermediate/prefixsum/PickFronBOthSides.class
 soloworld/scalar/arrays/ArrayRotation.class
@@ -12,6 +15,7 @@ soloworld/scalar/intermediate/carryForward/MaximumSubString.class
 soloworld/scalar/intermediate/prefixsum/EqulibirumIndex.class
 soloworld/scalar/arrays/ReverseArray.class
 soloworld/scalar/intermediate/hashing/FirstRepeatingElement.class
+soloworld/scalar/bitwise/NumOfSetBits.class
 soloworld/scalar/bitwise/AddingTwoStrings.class
 soloworld/scalar/intermediate/hashing/LargestSequenceZero.class
 soloworld/scalar/intermediate/hashing/Distances.class

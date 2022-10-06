@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: soloworld.scalar.bitwise.HelpFromSamTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+soloworld.scalar.bitwise.HelpFromSamTest.test1()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "soloworld.scalar.bitwise.HelpFromSam.solve(int)" because "this.helpFromSam" is null
+	at soloworld.scalar.bitwise.HelpFromSamTest.test1(HelpFromSamTest.java:19)
+
