@@ -1,6 +1,0 @@
-
-g
-java:S3776
-"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(’ÎÈF
-e	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÎÈF
