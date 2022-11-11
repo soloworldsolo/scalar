@@ -23,7 +23,6 @@ import soloworld.scalar.util.ListNode;
  */
 public class ListNodeMatrix {
     ListNode head = null;
-    ListNode tail = null;
     public ListNode solve(int[][] A) {
 
 
@@ -49,9 +48,6 @@ public class ListNodeMatrix {
         if (position == 0) {
 
             ListNode temp =head== null ? null: head.next;
-            if (head == tail) {
-                tail = temp;
-            }
             head.next = null;
             head = temp;
         } else {
@@ -71,9 +67,6 @@ public class ListNodeMatrix {
                 }
                 currentNode.next = temp;
 
-                if (temp == null ) {
-                    tail = currentNode;
-                }
             }
         }
     }
@@ -85,13 +78,7 @@ public class ListNodeMatrix {
         if (position == 0) {
             currentNode = new ListNode(value);
             currentNode.next = head;
-            if (head == tail) {
                 head = currentNode;
-                tail = currentNode.next;
-            } else {
-                head = currentNode;
-            }
-
             return;
         }
 
@@ -105,30 +92,29 @@ public class ListNodeMatrix {
 
             currentNode.next = node;
             node.next = temp;
-            if(temp == null) {
-                tail = node;
-            }
+
         }
 
     }
 
     private void insertInTail(int value) {
-        if (tail == null) {
+        if (head == null) {
             head = new ListNode(value);
-            tail = head;
+
             return;
         }
         ListNode node = new ListNode(value);
-        tail.next = node;
-        tail = node;
+       ListNode currentNode = head;
+       while(currentNode !=null && currentNode.next !=null) {
+           currentNode = currentNode.next;
+       }
+       currentNode.next= node;
     }
 
     private void insertInHead(int value) {
         ListNode temp = head;
         if (head == null) {
             head = new ListNode(value);
-            tail = head;
-
         }else {
             head = new ListNode(value);
             head.next = temp;
