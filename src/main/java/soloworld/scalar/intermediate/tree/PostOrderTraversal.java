@@ -11,7 +11,7 @@ import static java.util.Collections.reverse;
 
 /**
  * postOrder = L R N(root) ->
- * which can b e done by
+ * which can b e done by NRL and reverse it
  *
  *
  */
