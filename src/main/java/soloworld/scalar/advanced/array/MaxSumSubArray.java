@@ -22,8 +22,8 @@ package soloworld.scalar.advanced.array;
  */
 public class MaxSumSubArray {
     public int maxSubArray(final int[] A) {
-        int sum =Integer.MIN_VALUE;
-        int result =A[0];
+        int result = A[0];
+        int sum = A[0];
 
         for(int i=1;i< A.length;i++) {
             if(A[i] > result+A[i]) {
@@ -37,9 +37,6 @@ public class MaxSumSubArray {
             }
         }
 
-        if(result >sum) {
-            return  result;
-        }
 
         return sum ;
     }
