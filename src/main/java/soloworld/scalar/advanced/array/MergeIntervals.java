@@ -4,6 +4,8 @@ import soloworld.scalar.util.Interval;
 
 import java.util.ArrayList;
 
+import static java.util.Comparator.comparingInt;
+
 /**
  * Problem Description
  * Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
@@ -59,73 +61,33 @@ public class MergeIntervals {
     public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
         ArrayList<Interval> res = new ArrayList<>();
         int start = Math.min(newInterval.start, newInterval.end);
-        int end = Math.max(newInterval.start, newInterval.end);;
+        int end = Math.max(newInterval.start, newInterval.end);
 
-        if(intervals.isEmpty()) {
+        if (intervals.isEmpty()) {
             res.add(newInterval);
             return res;
         }
 
-        if(newInterval.start > intervals.get(intervals.size()-1).end) {
-            res.add(new Interval(start,end));
-            res.addAll(intervals);
-            res.sort((i1,i2) -> i1.start -i2.start);
-            return res;
-        }
+        intervals.add(new Interval(start, end));
 
-        if(newInterval.end < intervals.get(0).start) {
-            res.add(new Interval(start,end));
-            res.addAll(intervals);
-            res.sort((i1,i2) -> i1.start -i2.start);
+        intervals.sort(comparingInt(a -> a.start));
 
-            return res;
-        }
+        start = intervals.get(0).start;
+        end = intervals.get(0).end;
 
         for (int i = 0; i < intervals.size(); i++) {
-             int currStart =0;
-             int currEnd =0;
-            if(i==0) {
-                if(start >intervals.get(i).start) {
-                    start = intervals.get(0).start;
-                    end = intervals.get(0).end;
-                    currStart = Math.min(newInterval.start, newInterval.end);
-                    currEnd = Math.max(newInterval.start,newInterval.end);
-                }
-                else {
-                    currStart = intervals.get(i).start;
-                    currEnd = intervals.get(i).end;
-                }
+            int currStart = intervals.get(i).start;
+            int currEnd = intervals.get(i).end;
 
-
-            }else {
-                currStart = intervals.get(i).start;
-                currEnd = intervals.get(i).end;
-            }
-
-            if(currStart <= end){
-                start = Math.min(start,currStart);
-                end = Math.max(end,currEnd);
-            }else {
+            if (currStart <= end) {
+                end = Math.max(end, currEnd);
+            } else {
                 res.add(new Interval(start, end));
                 start = currStart;
                 end = currEnd;
             }
-
         }
-
-          Interval last = intervals.get(intervals.size() - 1);
-
-          if (start == last.start && end == last.end) {
-              res.add(last);
-          }
-
-
-
-        if (res.isEmpty()) {
-            res.add(new Interval(start, end));
-        }
-        res.sort((i1,i2) -> i1.start -i2.start);
-
+        res.add(new Interval(start, end));
         return res;
     }
 }
