@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: soloworld.scalar.bitwise.NumOfSetBitsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-soloworld.scalar.bitwise.NumOfSetBitsTest.test1()  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+soloworld.scalar.bitwise.NumOfSetBitsTest.test1()  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "soloworld.scalar.bitwise.NumOfSetBits.solve(int)" because "this.numOfSetBits" is null
 	at soloworld.scalar.bitwise.NumOfSetBitsTest.test1(NumOfSetBitsTest.java:19)
 

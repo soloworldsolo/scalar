@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: soloworld.scalar.intermediate.modular.GreatestAmongTwoTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+soloworld.scalar.intermediate.modular.GreatestAmongTwoTest.test1()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "soloworld.scalar.intermediate.modular.GreatestAmongTwo.solve(int, int)" because "this.greatestAmongTwo" is null
+	at soloworld.scalar.intermediate.modular.GreatestAmongTwoTest.test1(GreatestAmongTwoTest.java:19)
+
+soloworld.scalar.intermediate.modular.GreatestAmongTwoTest.test2()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "soloworld.scalar.intermediate.modular.GreatestAmongTwo.solve(int, int)" because "this.greatestAmongTwo" is null
+	at soloworld.scalar.intermediate.modular.GreatestAmongTwoTest.test2(GreatestAmongTwoTest.java:25)
+
