@@ -35,8 +35,6 @@ h
 8src/main/java/soloworld/scalar/bitwise/NumOfSetBits.java,f/f/ffab0fd0b768f1666b6180bfe5df5676eadb06d9
 g
 7src/main/java/soloworld/scalar/bitwise/HelpFromSam.java,b/c/bc129bccde5414bed1134b7e7db7ccdec782867f
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 }
 Msrc/test/java/soloworld/scalar/intermediate/modular/ExcelTitleNumberTest.java,c/0/c0d608505165fc721f24846200b565784af57366
 ~
@@ -114,3 +112,9 @@ t
 Dsrc/main/java/soloworld/scalar/intermediate/sorting/SortByColor.java,3/6/367da4f0e010169d473f29f8670cf84619064358
 h
 8src/main/java/soloworld/scalar/string/ISAlphaString.java,d/3/d331c20ff052251e5611b31451deee0615478e2b
+h
+8src/main/java/soloworld/scalar/arrays/ArrayRotation.java,8/f/8f113c6ef16996a01d760115fe0a7b6157374116
+z
+Jsrc/main/java/soloworld/scalar/advanced/bitoperations/UniqueNumberTwo.java,f/d/fdf09b8b6eab912e165972787da62f4775f2bbc1
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
