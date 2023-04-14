@@ -97,9 +97,6 @@ Psrc/test/java/soloworld/scalar/intermediate/hashing/SubArrayWithSumZeroTest.jav
 Psrc/test/java/soloworld/scalar/intermediate/hashing/LargestSequenceZeroTest.java,7/a/7ad8f8404c2fa0b96893ea604f41c18eff79cb4b
 |
 Lsrc/main/java/soloworld/scalar/intermediate/hashing/SubArrayWithSumZero.java,7/1/71ac4a33d7961523eb6a80ba6ebb3a5b4a86fc77
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 ~
 Nsrc/main/java/soloworld/scalar/intermediate/sorting/ArithmeticProgression.java,8/8/88a964b746316eef1f9adfda9c0f1cce0889b3c6
 u
@@ -114,7 +111,7 @@ h
 8src/main/java/soloworld/scalar/string/ISAlphaString.java,d/3/d331c20ff052251e5611b31451deee0615478e2b
 h
 8src/main/java/soloworld/scalar/arrays/ArrayRotation.java,8/f/8f113c6ef16996a01d760115fe0a7b6157374116
-z
-Jsrc/main/java/soloworld/scalar/advanced/bitoperations/UniqueNumberTwo.java,f/d/fdf09b8b6eab912e165972787da62f4775f2bbc1
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+k
+;src/test/java/soloworld/scalar/maths/PowerOfNumberTest.java,a/d/ad994a4cc4b2f144e346d30a82004044719eccca

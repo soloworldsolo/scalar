@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: soloworld.scalar.arrays.ContigiousSubsetTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
-soloworld.scalar.arrays.ContigiousSubsetTest.test3()  Time elapsed: 0.009 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "soloworld.scalar.arrays.ContigiousSubset.getContigiousSubset(int[])" because "this.contigiousSubset" is null
-	at soloworld.scalar.arrays.ContigiousSubsetTest.test3(ContigiousSubsetTest.java:39)
-
-soloworld.scalar.arrays.ContigiousSubsetTest.test1()  Time elapsed: 0.002 sec  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+soloworld.scalar.arrays.ContigiousSubsetTest.test1()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "soloworld.scalar.arrays.ContigiousSubset.getContigiousSubset(int[])" because "this.contigiousSubset" is null
 	at soloworld.scalar.arrays.ContigiousSubsetTest.test1(ContigiousSubsetTest.java:24)
 
-soloworld.scalar.arrays.ContigiousSubsetTest.test2()  Time elapsed: 0.001 sec  <<< FAILURE!
+soloworld.scalar.arrays.ContigiousSubsetTest.test2()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "soloworld.scalar.arrays.ContigiousSubset.getContigiousSubset(int[])" because "this.contigiousSubset" is null
 	at soloworld.scalar.arrays.ContigiousSubsetTest.test2(ContigiousSubsetTest.java:31)
+
+soloworld.scalar.arrays.ContigiousSubsetTest.test3()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "soloworld.scalar.arrays.ContigiousSubset.getContigiousSubset(int[])" because "this.contigiousSubset" is null
+	at soloworld.scalar.arrays.ContigiousSubsetTest.test3(ContigiousSubsetTest.java:39)
 
