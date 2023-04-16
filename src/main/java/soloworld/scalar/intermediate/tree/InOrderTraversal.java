@@ -12,7 +12,7 @@ public class InOrderTraversal {
         ArrayList<Integer> res = new ArrayList<>();
         Deque<TreeNode> nodeStack = new ArrayDeque<>();
         TreeNode currentNode = A;
-        while (currentNode != null && !nodeStack.isEmpty()) {
+        while (currentNode != null || !nodeStack.isEmpty()) {
 
             while (currentNode != null) {
                 nodeStack.push(currentNode);

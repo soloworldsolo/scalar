@@ -64,8 +64,10 @@ public class OpeningsAndPair {
                 }
 
             }
+           // if count is greater than equal to 2 set all the numbers which are unset at this position to zero
 
             if(count >=2) {
+                //answer + 1<<i
                 answer =answer | ( 1<<i);
 
                 for (int j = 0; j < A.size(); j++) {
