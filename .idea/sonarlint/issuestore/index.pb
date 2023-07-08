@@ -125,3 +125,5 @@ s
 Csrc/main/java/soloworld/scalar/advanced/bitoperations/SumOfXOR.java,d/d/dd24f291554eaa690a25be299a2f0a4938a36366
 s
 Csrc/test/java/soloworld/scalar/advanced/recursion/GreyCodeTest.java,1/d/1d50cf812b870c7a28a92c67c2305a3e6757407b
+l
+<src/main/java/soloworld/scalar/advanced/greedy/Activity.java,0/a/0a3fd4ff8dfdb3b81a0f858f6c8e3760189ef7ad

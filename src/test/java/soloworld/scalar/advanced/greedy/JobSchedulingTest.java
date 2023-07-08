@@ -39,7 +39,8 @@ class JobSchedulingTest {
         lists.add(new ArrayList<>(List.of(4, 6, 70)));
         lists.add(new ArrayList<>(List.of(6, 9, 60)));
 
-
+        int res = Integer.highestOneBit(100);
+        System.out.println(res);
 
         jobScheduling.solve(lists);
     }
